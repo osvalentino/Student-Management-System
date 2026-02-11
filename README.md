@@ -9,9 +9,10 @@ c) An admin can view course/student/professor lists, and add/delete courses/stud
 The course information will be in the courseInfo.txt file. There will also be three files containing student/professor/admin information. The student management system will read and parse all of the files. Once all information has been loaded into the system, you’ll be able to log in as a(n) student/professor/administrator to test the system.
 
 Classes:
-- Abstract User, extends Professor class, Student class, and Admin class.
-- Course Class (represents single course)
-- Controller Class (controls main logic of system including login, add class, etc)
+- Abstract User class, extends Professor class, Student class, and Admin class.
+- Course class (represents single course)
+- Controller class (controls main logic of system including login, add class, etc)
+- FileInfoReader class (reads and parses txt files)
 
 Below are explanations of the pieces of information in each of the four provided data files.
 - courseInfo.txt - Courses information file that contains: course ID; course name; lecturer; days; start time; end time; capacity
